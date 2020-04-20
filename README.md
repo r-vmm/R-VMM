@@ -5,7 +5,7 @@
 
 We split the pVM (dom0) in four parts where each part has his dedicated fault tolerance mecanism + a global loop which monitors via heartbeat and trigger recovery mechanisms.  
 
-![Overall-Architecture](fig/xdesign.jpg)
+![Overall-Architecture](fig/xdesign.png)
 
 ## Requirements & Deployment
 
