@@ -3,7 +3,21 @@
 
 ## Our design
 
+We split the pVM (dom0) in four parts where each part has his dedicated fault tolerance mecanism + a global loop which monitors via heartbeat and trigger recovery mechanisms.  
+
+![Overall-Architecture](figs/xdesign.jpg)
+
 ## Requirements & Deployment
+
+### Requirements
+
+The dev was achieved on **Ubuntu 12.04.5 LTS with Linux kernel 5.0.8** (but can work on recent Ubuntu versions). 
+Our fault tolerance mechanism for the network component is dependent on **Broadcom Corporation NetXtreme II BCM5709
+Gigabit Ethernet interface (1Gb/s)** with the driver **bnx2**      
+
+### Deployment 
+
+
 
 ## Usage
 
