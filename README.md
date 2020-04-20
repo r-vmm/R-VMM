@@ -68,4 +68,6 @@ It should displays the *different parts of architecture* (dom0, xenstore, netdom
 
 We love **stars**, it is free, just drop one. :)
 
-You can contact us at any of these adress : mvondodb@univ-grenoble-alpes.fr, alain.tchana@ens-lyon.fr, renaud.lachaize@imag.fr 
+You can contact us at any of these adress : 
+
+mvondodb@univ-grenoble-alpes.fr, alain.tchana@ens-lyon.fr, renaud.lachaize@imag.fr 
