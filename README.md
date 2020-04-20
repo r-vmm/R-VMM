@@ -61,13 +61,22 @@ It should displays the *different parts of architecture* (dom0, xenstore, netdom
 
 # Usage
 
+You use our solution exactly as the Xen hypervisor. You can create virtual machines and work with them. 
+Each component is used in a transparent manner. To check out the log messages sent by every component, you can inspect debug messages of xen by : 
 
-## Testing with fault injection
+	`xl dmesg | grep [SD]` or `dmesg | grep [SD]` (for linux level log messages)
+
+
+Try crash testing some of our components and analyse their behaviour.
+
+A suite test in the folder **benchmarks** is at your disposal. It is composed of the set of modified benchmarks we used to test our solution 
+
+*tailbench suite and apache bench*. Please check it out. 
 
 ## Get in touch with us.
 
 We love **stars**, it is free, just drop one. :)
 
-You can contact us at any of these adress : 
+Feel free to email us at : 
 
 mvondodb@univ-grenoble-alpes.fr, alain.tchana@ens-lyon.fr, renaud.lachaize@imag.fr 
