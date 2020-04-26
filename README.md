@@ -30,7 +30,7 @@ First clone our repository in a folder.
 
 To build and install Linux, run:
 
-	`./pVM-util-script.sh deploy linux`
+	`./pVM-util-script.sh install linux`
 
 This will build our linux Kernel, install and reboot your server. Choose your distribution with the kernel Linux 5.0.8.
 Next let's run install our Xen-based hypervisor.
@@ -39,23 +39,15 @@ Next let's run install our Xen-based hypervisor.
 
 Run : 
 
-	`./pVM-util-script.sh deploy xen`
+	`./pVM-util-script.sh install xen`
 
 It builds Xen and reboot your server. When the grub menu displays, choose the entry with **Xen Hypervisor**.
 
 #### Check install
 
-To check if everything went right, run 
+To check if everything went right, boot on the corresponding hypervisor (xen-4.10.0-dev) and linux kernel (5.0.8), and run 
 
-	`./pVM-util-script.sh deploy test`
-
-It should displays the *different parts of architecture* (dom0, xenstore) by defaultdisplays, choose the entry with **Xen Hypervisor**.
-
-#### Check install
-
-To check if everything went right, run 
-
-	`./pVM-util-script.sh deploy test`
+	`/etc/init.d/xencommons start`
 
 It should displays the *different parts of architecture* (dom0, xenstore, netdom and tooldom) by default
 
