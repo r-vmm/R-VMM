@@ -69,9 +69,7 @@ Each component is used in a transparent manner. To check out the log messages se
 
 Try crash testing some of our components and analyse their behaviour.
 
-A suite test in the folder **benchmarks** is at your disposal. It is composed of the set of modified benchmarks we used to test our solution 
-
-*tailbench suite and apache bench*. Please check it out. 
+A suite test in the folder **benchmarks** is at your disposal. It is composed of the set of modified benchmarks we used to test our solution *tailbench suite and apache bench*. Please check it out. 
 
 ## Get in touch with us.
 
